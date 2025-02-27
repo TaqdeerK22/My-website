@@ -1,0 +1,162 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke; /* Soft pastel bluish tone (not light blue) */
+    color: #1f3a57; /* A deeper blue for text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.header {
+    background: linear-gradient(135deg, #2b4b75, transparent); /* Pastel bluish tone */
+    color: #1f3a57; /* Dark blue text */
+    padding: 20px 0;
+    text-align: center;
+   /* border-bottom: 3px solid #1f3a57;  Solid border with 3px thickness */
+
+}
+
+.header h1 {
+    font-size: 3rem; /* Large font size for name */
+    margin: 0;
+    background: #1f3a57; /* Gradient from light blue to darker blue */
+    -webkit-background-clip:text; /* Clip the background gradient to the text */
+    color: transparent; /* Make the text color transparent so the gradient shows */
+    padding-bottom: 10px; /* Add space between the text and underline */
+}
+
+/* Navigation links */
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+
+}
+
+.navigation ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+.navigation ul li a {
+    color: #1f3a57;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2.5rem; /* Large font for section headings */
+    color: #1f3a57; /* Soft dark blue for section titles */
+
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #1f3a57; /* Blue for sub-headings */
+}
+
+h4 {
+    font-size: 1.4rem; /* Slightly smaller for subheadings */
+    color: #2b4b75; /* Slightly darker pastel blue */
+}
+
+p, li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #1f3a57;
+}
+
+/* Education Section */
+#Education h2 {
+    font-size: 2.5rem; /* Education heading size */
+    color: #1f3a57; /* Dark blue */
+}
+
+#Education h3 {
+    font-size: 1rem; /* Degree and date smaller than Education heading */
+    color: #2b4b75; /* Pastel blue tone */
+}
+
+#Education h4 {
+    font-size: 1.6rem; /* Degree and date smaller than Education heading */
+    color: #2b4b75; /* Pastel blue tone */
+}
+
+/* Buttons */
+.btn-toggle {
+    background:linear-gradient(135deg, #2b4b75, transparent); /* Pastel bluish button background */
+    color: #1f3a57;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.btn-toggle:hover {
+    background-color: #2b4b75; /* White background on hover */
+    color: #1f3a57; /* Keep text color dark */
+}
+
+/* Form Styling */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    border: 1px solid #1f3a57;
+    border-radius: 5px;
+}
+
+form button {
+    background:linear-gradient(135deg, #2b4b75, transparent);
+    color: #1f3a57;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: white; /* White background on hover */
+    color: #1f3a57; /* Keep text color dark */
+}
+
+/* Footer Styling */
+.footer {
+    background: linear-gradient(135deg, #2b4b75, transparent);
+    color: #1f3a57;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.5rem; /* Slightly smaller text on smaller screens */
+    }
+
+    .navigation ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .section {
+        padding: 20px 10px;
+    }
+}
